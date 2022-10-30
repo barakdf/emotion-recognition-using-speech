@@ -9,6 +9,8 @@ from struct import pack
 from sklearn.ensemble import GradientBoostingClassifier, BaggingClassifier
 
 from utils import get_best_estimators
+import warnings
+warnings.filterwarnings('ignore')
 
 THRESHOLD = 500
 CHUNK_SIZE = 1024
